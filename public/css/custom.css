@@ -1,0 +1,28 @@
+.list-group-item {
+    max-height: 75px !important; 
+        padding: 0px 10px !important;
+}
+#alerts_area{
+    background: #6a90bd;
+}
+
+.custom-notification-bar{
+    padding: 0 10px;
+    font-size:  17px;
+}
+
+
+.daterangepicker .drp-calendar{
+    max-width: 100% !important;
+  }
+
+.w3-container-custom{
+    min-height: 125px !important;
+    max-height: 125px !important;
+}
+  
+.dailyStatDiv{
+    padding:10px;
+    border: 2px solid #272727;
+    border-radius: 10px;
+}  

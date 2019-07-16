@@ -1,0 +1,201 @@
+body { 
+    padding-top: 60px;
+}
+
+.vertical-bar{
+  margin: 0 10px;
+}
+
+.dropdown-menu>li>a{
+  line-height: 2.6;
+}
+
+#alerts_area::-webkit-scrollbar-button {
+  width: 4px;
+}
+
+#alerts_area li a{
+  font-weight: bolder !important;
+}
+.navbar-primary {
+  background: white !important;
+}
+
+.navbar-brand {
+  font-size: 25px !important;
+}
+
+.navbar-logo {
+  width:50px;
+  height:50px;
+}
+
+.panel-admin {
+  border-color: #ff7300;
+}
+
+.panel-admin>.panel-heading {
+  color: white;
+  background-color: #ff7300;
+  border-color: #ff7300;
+}
+
+.btn-admin {
+  background-color: #ff7300;
+  color:white;
+}
+
+.btn-admin:hover {
+  background-color: #faa45d;
+}
+
+#RecentMessage{
+  height: 500px;
+  overflow-y: auto;
+  background-color: white;
+}
+
+.text {
+  background: #ececec;
+  border-radius: 0px 0px 15px 15px;
+  padding: 15px;
+  white-space: pre-line;
+}
+
+.messageHead {
+  background: #2579a9;
+  color:#fff;
+  border-radius: 15px 15px 0px 0px;
+  padding: 5px;
+}
+
+.messageContent {
+  background: #ececec;
+  border-radius: 0px 0px 15px 15px;
+  padding: 5px;
+}
+
+.textHeader {
+  background: #2579a9;
+  color:#fff;
+  margin-top: 15px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+input[type="checkbox"] {
+  margin-top: 0px !important;
+}
+
+.approved {
+  background:rgb(190, 255, 160) !important;
+}
+.notapproved {
+  background:rgb(255, 174, 174) !important;
+}
+
+#svgChart>g>rect {
+  fill:none;
+  stroke:none;
+}
+
+.sudoware {
+  color:white;
+  font-weight: 500;
+  font-size: 15px;
+  transition-duration: 0.2s;
+}
+
+.sudoware:hover {
+  text-decoration: none;
+  color:white;
+  font-weight: 1000;
+  font-size: 20px;
+  transition-duration: 0.2s;
+}
+
+.footer {
+  padding: 5px;
+  color:white;
+  background:#3C9A47;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+
+  width: 100%;
+}
+.footer>p {
+  margin: 0px !important;
+}
+
+table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1{
+    background-color:white !important;
+    color:#222222;
+}
+
+/*#right-button{*/
+/*    z-index: 9999;*/
+/*    position: fixed;*/
+/*    bottom: 20px;*/
+/*    right: 0px; */
+/*}*/
+/*#left-button{*/
+/*    z-index: 9999;*/
+/*    position: fixed;*/
+/*    bottom: 20px;*/
+/*    left: 200px; */
+/*}*/
+
+.form-control{
+    padding:0px 12px;
+}
+
+.table.dataTable tbody th, table.dataTable tbody td{
+    padding:2px 15px !important;
+}
+
+.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th {
+    padding:2px 15px !important;
+}
+
+.table.dataTable.display tbody tr.even>.sorting_1, table.dataTable.order-column.stripe tbody tr.even>.sorting_1{
+    color:#222222;   
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    line-height:1.3;
+}
+
+#mySidebar{
+  overflow: auto !important;
+  top: 10%;
+  height: 80%;
+}
+
+.sub-menu {
+  display: none;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 10px;
+  padding-bottom: 0;
+}
+.menu{
+  text-decoration: none;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#left-button{
+  position: fixed;
+  top:90%;
+  left:15%;
+  z-index: 1;
+}
+
+#right-button{
+  position: fixed;
+  top:90%;
+  left:18%;
+  z-index: 1;
+}
